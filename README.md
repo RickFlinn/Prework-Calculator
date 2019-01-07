@@ -29,4 +29,4 @@ E.g., Factorialify(3) = 3! = 3 * 2 * 1.
 
 ## CosignNotYourLease
 Returns the cosine of the given number.
-![Screenshot of CosignNotYourLease Functionality]https://github.com/RickFlinn/Prework-Calculator/blob/master/Calculator/Screenshot%20(21).png "CosignNotYourLease") 
+![Screenshot of CosignNotYourLease Functionality](https://github.com/RickFlinn/Prework-Calculator/blob/master/Calculator/Screenshot%20(21).png "CosignNotYourLease") 

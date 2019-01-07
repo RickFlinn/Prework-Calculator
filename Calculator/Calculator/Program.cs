@@ -44,11 +44,19 @@ namespace Calculator
             return x - y;
         }
 
-        // Squares given number and returns the square. No dancing involved here, take your countryside barn revelry elsewhere
+        // Squares given number and returns the square. No dancing involved here, take your damned countryside barn revelry elsewhere
         public static double SquareButLikeNotTheDance(double x)
         {
             Console.WriteLine("" + (x * x));
             return x * x;
+        }
+
+        // Returns square root of given number.
+        public static double TheRootOfTheSquare (double x)
+        {
+            double ans = Math.Sqrt(x);
+            Console.WriteLine(ans);
+            return ans;
         }
 
         // Factorializes a given integer. 
@@ -59,8 +67,16 @@ namespace Calculator
             {
                 ans *= i;
             }
+            Console.WriteLine("" + ans);
             return ans;
         }
 
+        // Returns the cosine of given angle. 
+        public static double CosignNotYourLease (double x)
+        {
+            double ans = Math.Cos(x);
+            Console.WriteLine(ans);
+            return ans;
+        }
     }
 }
